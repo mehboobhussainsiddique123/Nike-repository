@@ -4,4 +4,8 @@ git add filename
 git rm --cached filename
 git log
 git commit -m "Message"
+git config --global user.name " "
+git config --global user.email " "
+git log --oneline
+git log --oneline --pretty
 
